@@ -25,13 +25,13 @@
 #define LORA_SYNC_WORD  0xF3
 
 // ---------------- Pins (same LoRa wiring as the CanSat) ----------------
-#define LORA_SCK    18
+/*#define LORA_SCK    18
 #define LORA_MISO   19
 #define LORA_MOSI   23
 #define LORA_CS     5
 #define LORA_RST    14
 #define LORA_DIO0   26
-#define LED_PIN     2
+#define LED_PIN     2*/
 
 // Packet: CS,<id>,ms,utc,temp_c,pressure_hpa,alt_m,lat,lon,gps_alt_m,sats,ax,ay,az,gx,gy,gz
 enum { F_TAG, F_ID, F_MS, F_UTC, F_TEMP, F_PRESS, F_ALT, F_LAT, F_LON, F_GPSALT,
